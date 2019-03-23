@@ -1,0 +1,23 @@
+{
+    "name": "@nixster/pagedown",
+    "version": "1.0.1",
+    "description": "markdown converter, based on google npm pagedown",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "markdown",
+        "pagedown"
+    ],
+    "license": "MIT",
+    "files": [
+        "Markdown.Editor.js",
+        "Markdown.Converter.js",
+        "Markdown.Sanitizer.js",
+        "node-pagedown.js"
+    ],
+    "main": "node-pagedown.js",
+    "bugs": "",
+    "homepage": "http://nmvinson.com/code/npm/pagedown"
+}
