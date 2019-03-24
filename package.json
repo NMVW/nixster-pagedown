@@ -12,9 +12,9 @@
     ],
     "license": "MIT",
     "files": [
-        "Markdown.Editor.js",
         "Markdown.Converter.js",
         "Markdown.Sanitizer.js",
+        "Markdown.Editor.js",
         "node-pagedown.js"
     ],
     "main": "node-pagedown.js",

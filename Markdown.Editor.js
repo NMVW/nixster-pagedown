@@ -1,6 +1,15 @@
-﻿// needs Markdown.Converter.js at the moment
+﻿"use strict";
+var Markdown;
 
-(function () {
+if (typeof exports === "object" && typeof require === "function") // we're in a CommonJS (e.g. Node.js) module
+    Markdown = exports;
+else
+    Markdown = {};
+
+(function ({ HookCollection, Converter }) {
+
+    Markdown.HookCollection = HookCollection;
+    Markdown.Converter = Converter;
 
     var util = {},
         position = {},
@@ -2297,5 +2306,4 @@
         chunk.skipLines(2, 1, true);
     }
 
-
-})();
+})(require('./Markdown.Converter'));
