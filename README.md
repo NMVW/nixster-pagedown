@@ -1,5 +1,6 @@
 # @nixster/pagedown
 ![@nixster/pagedown](https://img.shields.io/badge/@nixster-pagedown-blue.svg)
+
 Google's ```pagedown``` with all exports fully exposed.
 
 ## Install
@@ -16,3 +17,6 @@ Google's ```pagedown``` with all exports fully exposed.
 
 ## API
 [Google Wiki](https://code.google.com/archive/p/pagedown/wikis/PageDown.wiki)
+
+### Publish
+```$ npm publish --access=public```
